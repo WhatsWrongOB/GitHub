@@ -12,4 +12,4 @@ function multiply(a: number, b: number): number {
 
 add(1, 2);
 sub(2, 3);
-multiply(3, 5);
+multiply(3, 7);
