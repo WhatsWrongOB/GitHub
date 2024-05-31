@@ -1,7 +1,5 @@
 
-
-// Fetching products from an external Api
-const fetchData = async () => {
+const FetchProducts = async () => {
   try {
     const res = await fetch("https://fakestoreapi.com/products");
     const data = await res.json();
@@ -10,4 +8,4 @@ const fetchData = async () => {
     console.log(error.message);
   }
 };
-fetchData();
+FetchProducts();
