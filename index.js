@@ -1,3 +1,6 @@
+
+
+// Fetching products from an external Api
 const fetchData = async () => {
   try {
     const res = await fetch("https://fakestoreapi.com/products");
